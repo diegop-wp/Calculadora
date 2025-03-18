@@ -14,7 +14,7 @@ public class Calculadora {
 
         switch (teclado.nextInt()){
             case 1:
-                calculadora.Soma();
+                calculadora.soma();
         }
 
     }

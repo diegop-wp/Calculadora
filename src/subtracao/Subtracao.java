@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class Subtracao {
     Scanner teclado = new Scanner(System.in);
-    int soma = 0;
-    int num = 0;
-    public void Soma (){
 
-        for (int i = 0; i < 2; i++) {
-            System.out.println("Digite o "+(i+1)+"° Número :");
-            num = teclado.nextInt();
-            soma += num;
-        }
-        System.out.println("Resultado Da Soma: "+soma);
+    public void soma (){
 
+        System.out.print("Digite o primeiro número: ");
+        int num1 = teclado.nextInt();
+
+        System.out.print("Digite o segundo número: ");
+        int num2 = teclado.nextInt();
+
+        int resultado = num1 - num2;
+        System.out.println("Resultado da subtração: " + resultado);
+        teclado.close();
     }
 }
