@@ -5,7 +5,20 @@ import java.util.Scanner;
 public class Subtracao {
     Scanner teclado = new Scanner(System.in);
 
-    public void soma (){
+    public void adicao (){
+
+        System.out.print("Digite o primeiro número: ");
+        int num1 = teclado.nextInt();
+
+        System.out.print("Digite o segundo número: ");
+        int num2 = teclado.nextInt();
+
+        int resultado = num1 + num2;
+        System.out.println("Resultado da Adição: " + resultado);
+        teclado.close();
+    }
+
+    public void subtracao (){
 
         System.out.print("Digite o primeiro número: ");
         int num1 = teclado.nextInt();
@@ -14,7 +27,7 @@ public class Subtracao {
         int num2 = teclado.nextInt();
 
         int resultado = num1 - num2;
-        System.out.println("Resultado da subtração: " + resultado);
+        System.out.println("Resultado da Adição: " + resultado);
         teclado.close();
     }
 }

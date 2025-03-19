@@ -10,11 +10,18 @@ public class Calculadora {
 
         System.out.println("-----Calculadora-----");
 
-        System.out.println(" 1: Subtração");
+        System.out.println(" 1 - Adição");
+        System.out.println("2 - Subtração");
 
         switch (teclado.nextInt()){
             case 1:
-                calculadora.soma();
+                calculadora.adicao();
+                break;
+            case 2:
+                calculadora.subtracao();
+                break;
+            default:
+                break;
         }
 
     }
