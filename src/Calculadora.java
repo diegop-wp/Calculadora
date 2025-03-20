@@ -10,9 +10,10 @@ public class Calculadora {
 
         System.out.println("-----Calculadora-----");
 
-        System.out.println(" 1 - Adição");
+        System.out.println("1 - Adição");
         System.out.println("2 - Subtração");
         System.out.println("3 - multiplicação");
+        System.out.println("4 - divisão");
 
 
         switch (teclado.nextInt()){
@@ -25,6 +26,9 @@ public class Calculadora {
             case 3:
                 calculadora.multiplicacao();
                 break;
+            case 4:
+                calculadora.divisao();
+
             default:
                 break;
         }
